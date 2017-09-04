@@ -1,0 +1,38 @@
+{
+    "name": "bakumn/flarum-ext-mongolia",
+    "type": "flarum-extension",
+    "description": "Mongolia language pack for Flarum.",
+    "homepage": "https://github.com/bakumn/flarum-ext-mongolia",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Badmaanyambuu.E",
+            "email": "developer.mn@gmail.com",
+            "homepage": "http://www.fb.com/bakumn"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/bakumn/flarum-ext-mongolia/issues",
+        "source": "https://github.com/bakumn/flarum-ext-mongolia",
+        "forum": "https://discuss.flarum.org"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Mongolia",
+            "icon": {
+                "image": "start",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "mn",
+            "title": "mongolia"
+        }
+    }
+}
